@@ -10,11 +10,7 @@
         </style>
         <h1> Pre-pay for RO:TX Premium!<h1>
             
-
-</body>
-</html>
-
-    <div id="smart-button-container">
+<div id="smart-button-container">
       <div style="text-align: center;">
         <div id="paypal-button-container"></div>
       </div>
@@ -24,7 +20,7 @@
     function initPayPalButton() {
       paypal.Buttons({
         style: {
-          shape: 'pill',
+          shape: 'rect',
           color: 'blue',
           layout: 'vertical',
           label: 'paypal',
@@ -46,7 +42,7 @@
             // Show a success message within this page, e.g.
             const element = document.getElementById('paypal-button-container');
             element.innerHTML = '';
-            element.innerHTML = '<h3>Thank you for your payment! Message Fadify with payment proof.</h3>';
+            element.innerHTML = '<h3>Message Fadify with payment proof to be confirmed  on the list! Thank you for your payment! </h3>';
 
             // Or go to another URL:  actions.redirect('thank_you.html');
             
