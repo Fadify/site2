@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700,500,600);
+
+.card {
+  background-color: #31313176;
+  width: 25rem;
+  border: 0.1px solid #c0bfbf15;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: large;
+  padding: 1rem;
+}
+
+.title {
+  color: #ffffffce;
+  font-family: "Montserrat";
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 4.8px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.description {
+  color: #ffffffce;
+  font-family: "Montserrat";
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: center;
+}
