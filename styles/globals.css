@@ -50,6 +50,30 @@ body {
   display: flex;
   justify-content: center;
 }
+.text-muted {
+  color: #ffffffce;
+  font-family: "Montserrat";
+}
+.input {
+  background-color: #1717175e;
+  border-color: transparent;
+  border-radius: 48px;
+  cursor: pointer;
+  display: flex;
+  height: 35px;
+  min-width: 150px;
+  max-width: 20rem;
+  padding: 0 26px;
+  transition: all 0.5s ease-in-out;
+  align-items: center;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
+.input:hover {
+  background-color: rgb(27, 27, 27);
+}
 .pricing-card {
   color: var(--white);
   background-color: #31313176;
